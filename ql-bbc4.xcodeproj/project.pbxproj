@@ -10,6 +10,7 @@
 		F4983E7E1DE9ADE4006710FF /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.c */; };
 		F4983E801DE9ADE4006710FF /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.c */; };
 		F4983E821DE9ADE4006710FF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E811DE9ADE4006710FF /* main.c */; };
+		F4983E8A1DE9AE0E006710FF /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = F4983E891DE9AE0E006710FF /* fixtures */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
 		F4983E811DE9ADE4006710FF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F4983E831DE9ADE4006710FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4983E891DE9AE0E006710FF /* fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fixtures; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 		F4983E701DE9ADE4006710FF = {
 			isa = PBXGroup;
 			children = (
+				F4983E891DE9AE0E006710FF /* fixtures */,
 				F4983E7C1DE9ADE4006710FF /* ql-bbc4 */,
 				F4983E7B1DE9ADE4006710FF /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4983E8A1DE9AE0E006710FF /* fixtures in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
