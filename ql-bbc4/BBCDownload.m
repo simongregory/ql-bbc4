@@ -33,8 +33,12 @@ NSData* renderBBC4(NSURL* url)
         
         NSData *data = [NSData dataWithContentsOfURL:packageURL];
         NSError *err;
-        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&err];
+        NSMutableDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&err];
 
+//        if ([dict objectForKey:@"subtitle"] == [NSNull null]) {
+//            dict[@"subtitle"] = @"";
+//        }
+        
         //char *output = [source UTF8String];
         NSString *html = [NSString stringWithFormat:@"<!DOCTYPE html>\n"
                           "<html>\n"
@@ -46,9 +50,10 @@ NSData* renderBBC4(NSURL* url)
                           "<body>\n"
                           "<h1>%@</h1>"
                           "<h2>%@</h2>"
+                          "<p>%@</p>"
                           "</body>\n"
                           "</html>",
-                          styles, url, dict[@"title"], dict[@"subtitle"]];
+                          styles, url, dict[@"title"], dict[@"subtitle"], dict[@"synopsis"]];
         
         //free(output);
         return [html dataUsingEncoding:NSUTF8StringEncoding];
