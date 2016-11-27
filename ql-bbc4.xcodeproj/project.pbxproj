@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4983E7E1DE9ADE4006710FF /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.c */; };
-		F4983E801DE9ADE4006710FF /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.c */; };
+		F43045511DEAFAD2006D543F /* Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = F43045501DEAFAD2006D543F /* Document.icns */; };
+		F4983E7E1DE9ADE4006710FF /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.m */; };
+		F4983E801DE9ADE4006710FF /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.m */; };
 		F4983E821DE9ADE4006710FF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F4983E811DE9ADE4006710FF /* main.c */; };
-		F4983E8A1DE9AE0E006710FF /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = F4983E891DE9AE0E006710FF /* fixtures */; };
+		F4983E951DE9FC54006710FF /* BBCDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F4983E941DE9FC54006710FF /* BBCDownload.m */; };
+		F4983E971DEA0D1A006710FF /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = F4983E961DEA0D1A006710FF /* styles.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F43045501DEAFAD2006D543F /* Document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Document.icns; sourceTree = "<group>"; };
 		F4983E7A1DE9ADE4006710FF /* ql-bbc4.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ql-bbc4.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		F4983E811DE9ADE4006710FF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F4983E831DE9ADE4006710FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4983E891DE9AE0E006710FF /* fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fixtures; sourceTree = "<group>"; };
+		F4983E8B1DE9B5C0006710FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4983E931DE9FB1B006710FF /* BBCDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCDownload.h; sourceTree = "<group>"; };
+		F4983E941DE9FC54006710FF /* BBCDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCDownload.m; sourceTree = "<group>"; };
+		F4983E961DEA0D1A006710FF /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 		F4983E701DE9ADE4006710FF = {
 			isa = PBXGroup;
 			children = (
+				F4983E8B1DE9B5C0006710FF /* README.md */,
 				F4983E891DE9AE0E006710FF /* fixtures */,
 				F4983E7C1DE9ADE4006710FF /* ql-bbc4 */,
 				F4983E7B1DE9ADE4006710FF /* Products */,
@@ -53,10 +61,14 @@
 		F4983E7C1DE9ADE4006710FF /* ql-bbc4 */ = {
 			isa = PBXGroup;
 			children = (
-				F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.c */,
-				F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.c */,
+				F43045501DEAFAD2006D543F /* Document.icns */,
+				F4983E7D1DE9ADE4006710FF /* GenerateThumbnailForURL.m */,
+				F4983E7F1DE9ADE4006710FF /* GeneratePreviewForURL.m */,
 				F4983E811DE9ADE4006710FF /* main.c */,
 				F4983E831DE9ADE4006710FF /* Info.plist */,
+				F4983E931DE9FB1B006710FF /* BBCDownload.h */,
+				F4983E941DE9FC54006710FF /* BBCDownload.m */,
+				F4983E961DEA0D1A006710FF /* styles.css */,
 			);
 			path = "ql-bbc4";
 			sourceTree = "<group>";
@@ -129,7 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4983E8A1DE9AE0E006710FF /* fixtures in Resources */,
+				F4983E971DEA0D1A006710FF /* styles.css in Resources */,
+				F43045511DEAFAD2006D543F /* Document.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4983E7E1DE9ADE4006710FF /* GenerateThumbnailForURL.c in Sources */,
-				F4983E801DE9ADE4006710FF /* GeneratePreviewForURL.c in Sources */,
+				F4983E7E1DE9ADE4006710FF /* GenerateThumbnailForURL.m in Sources */,
+				F4983E801DE9ADE4006710FF /* GeneratePreviewForURL.m in Sources */,
 				F4983E821DE9ADE4006710FF /* main.c in Sources */,
+				F4983E951DE9FC54006710FF /* BBCDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +293,7 @@
 				F4983E881DE9ADE4006710FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

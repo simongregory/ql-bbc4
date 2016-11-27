@@ -1,0 +1,9 @@
+body {
+    margin: 20px 40px;
+    background-color: #fff;
+    color: #000;
+    font: 16px -apple-system, "Helvetica Neue", "Myriad Pro", "Lucida Grande", Lucida, Verdana, sans-serif;
+    overflow: auto;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+}

@@ -11,7 +11,7 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
+				<string>uk.co.bbc.bbc4</string>
 			</array>
 		</dict>
 	</array>
@@ -57,5 +57,30 @@
 	<false/>
 	<key>QLThumbnailMinimumSize</key>
 	<real>17</real>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.composite-content</string>
+				<string>com.apple.package</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>BBC iPlayer Media Archive</string>
+			<key>UTTypeIconFile</key>
+			<string>Document.icns</string>
+			<key>UTTypeIdentifier</key>
+			<string>uk.co.bbc.bbc4</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://bbc4.bbc.co.uk/</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>bbc4</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
