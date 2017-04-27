@@ -4,8 +4,7 @@ A Quick Look Plugin to examine the contents of `.bbc4` packages.
 
 ## Setting up XCode
 
-Creating a Quick Look project `File > New > Project...` and selecting `Quick Look Plugin`. The resulting project should 
-
+Creating a Quick Look project `File > New > Project...` and selecting `Quick Look Plugin`.
 
 Once done testing and debugging the plugin requires some manual intervention.
 
